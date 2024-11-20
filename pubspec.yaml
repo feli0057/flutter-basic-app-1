@@ -1,6 +1,6 @@
 name: flutter_application_1
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -17,3 +17,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: RethinkSans
+      fonts:
+        - asset: assets/fonts/RethinkSans-Regular.ttf
+        - asset: assets/fonts/RethinkSans-Bold.ttf
+        - asset: assets/fonts/RethinkSans-SemiBold.ttf
+  assets:
+    - assets/images/image1.jpg
+    - assets/images/image2.jpg
+    - assets/images/image3.jpg
